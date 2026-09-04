@@ -34,6 +34,7 @@ echo "==> Adding marketplaces"
 claude plugin marketplace add anthropics/claude-plugins-official || true
 claude plugin marketplace add DietrichGebert/ponytail || true
 claude plugin marketplace add addyosmani/agent-skills || true
+claude plugin marketplace add https://github.com/affaan-m/ECC || true
 
 echo "==> Installing plugins"
 for p in \
@@ -43,6 +44,7 @@ for p in \
   superpowers@claude-plugins-official \
   github@claude-plugins-official \
   mattpocock-skills@claude-plugins-official \
+  ecc@ecc \
 ; do
   claude plugin install "$p" || echo "  (skipped $p — already installed or install failed)"
 done

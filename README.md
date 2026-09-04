@@ -19,8 +19,8 @@ injected into `~/.claude/settings.json` at install time.
 - **Claude Code CLI** — official native installer, if not already present.
 - **Plugins** (via `claude plugin install`, same set for both profiles):
   `ponytail`, `agent-skills`, `frontend-design`, `superpowers`, `github`,
-  `mattpocock-skills`. `gitkraken-hooks` is attempted too but only works if
-  GitKraken Desktop is installed (it owns that marketplace locally).
+  `mattpocock-skills`, `ecc`. `gitkraken-hooks` is attempted too but only
+  works if GitKraken Desktop is installed (it owns that marketplace locally).
 - **graphify** skill — via `uv tool install graphifyy` +
   `graphify install --platform claude`.
 - **`~/.claude/CLAUDE.md`** — global memory/instructions.
