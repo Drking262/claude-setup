@@ -1,0 +1,3 @@
+{
+  "_comment": "Direct Anthropic API. No env overrides needed — auth via `claude login` (OAuth) or ANTHROPIC_API_KEY."
+}

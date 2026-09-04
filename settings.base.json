@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "notify-send 'Claude Code' 'Input or permission required'"
+          }
+        ]
+      }
+    ]
+  },
+  "theme": "dark",
+  "autoCompactEnabled": true,
+  "compactionThreshold": 0.75
+}
